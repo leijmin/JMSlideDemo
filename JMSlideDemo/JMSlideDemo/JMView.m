@@ -110,6 +110,7 @@ static CGFloat    const  itemHeightScale  = 0.42;
     // visibleCells 获取界面上能显示出来了cell
     NSArray<JMTableViewCell *> *array = [self.tableView visibleCells];
     
+    
     /*
      *      想了解详情的童鞋，参考这篇博客：
      *      http://blog.sunnyxx.com/2014/04/30/ios_iterator/
