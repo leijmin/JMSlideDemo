@@ -13,12 +13,12 @@
 		ED41BD9B1CF574080065C819 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED41BD991CF574080065C819 /* Main.storyboard */; };
 		ED41BD9D1CF574080065C819 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED41BD9C1CF574080065C819 /* Assets.xcassets */; };
 		ED41BDA01CF574080065C819 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED41BD9E1CF574080065C819 /* LaunchScreen.storyboard */; };
-		ED41BDAD1CF575680065C819 /* JMView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED41BDAC1CF575680065C819 /* JMView.m */; };
-		ED41BDB01CF575A40065C819 /* JMViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ED41BDAF1CF575A40065C819 /* JMViewModel.m */; };
-		ED41BDB31CF575B50065C819 /* JMModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ED41BDB21CF575B50065C819 /* JMModel.m */; };
-		ED41BDB61CF5781F0065C819 /* JMTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ED41BDB51CF5781F0065C819 /* JMTableViewCell.m */; };
 		ED41BDD61CF590640065C819 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = ED41BDC91CF590640065C819 /* 1.png */; };
-		ED41BDDE1CF6E8590065C819 /* PopUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED41BDDD1CF6E8590065C819 /* PopUpView.m */; };
+		ED6BC2351CFBDD4E008A6E62 /* JMModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6BC2311CFBDD4E008A6E62 /* JMModel.m */; };
+		ED6BC2361CFBDD4E008A6E62 /* JMViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6BC2341CFBDD4E008A6E62 /* JMViewModel.m */; };
+		ED6BC23E1CFBDDB2008A6E62 /* JMTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6BC2391CFBDDB2008A6E62 /* JMTableViewCell.m */; };
+		ED6BC23F1CFBDDB2008A6E62 /* JMView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6BC23B1CFBDDB2008A6E62 /* JMView.m */; };
+		ED6BC2401CFBDDB2008A6E62 /* PopUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6BC23D1CFBDDB2008A6E62 /* PopUpView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,17 +32,17 @@
 		ED41BD9C1CF574080065C819 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED41BD9F1CF574080065C819 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED41BDA11CF574080065C819 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ED41BDAB1CF575680065C819 /* JMView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JMView.h; path = ../JMView.h; sourceTree = "<group>"; };
-		ED41BDAC1CF575680065C819 /* JMView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JMView.m; path = ../JMView.m; sourceTree = "<group>"; };
-		ED41BDAE1CF575A40065C819 /* JMViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JMViewModel.h; path = ../JMViewModel.h; sourceTree = "<group>"; };
-		ED41BDAF1CF575A40065C819 /* JMViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JMViewModel.m; path = ../JMViewModel.m; sourceTree = "<group>"; };
-		ED41BDB11CF575B50065C819 /* JMModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JMModel.h; path = ../JMModel.h; sourceTree = "<group>"; };
-		ED41BDB21CF575B50065C819 /* JMModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JMModel.m; path = ../JMModel.m; sourceTree = "<group>"; };
-		ED41BDB41CF5781F0065C819 /* JMTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JMTableViewCell.h; path = ../JMTableViewCell.h; sourceTree = "<group>"; };
-		ED41BDB51CF5781F0065C819 /* JMTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JMTableViewCell.m; path = ../JMTableViewCell.m; sourceTree = "<group>"; };
 		ED41BDC91CF590640065C819 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
-		ED41BDDC1CF6E8590065C819 /* PopUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopUpView.h; sourceTree = "<group>"; };
-		ED41BDDD1CF6E8590065C819 /* PopUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopUpView.m; sourceTree = "<group>"; };
+		ED6BC2301CFBDD4E008A6E62 /* JMModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMModel.h; sourceTree = "<group>"; };
+		ED6BC2311CFBDD4E008A6E62 /* JMModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMModel.m; sourceTree = "<group>"; };
+		ED6BC2331CFBDD4E008A6E62 /* JMViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMViewModel.h; sourceTree = "<group>"; };
+		ED6BC2341CFBDD4E008A6E62 /* JMViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMViewModel.m; sourceTree = "<group>"; };
+		ED6BC2381CFBDDB2008A6E62 /* JMTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMTableViewCell.h; sourceTree = "<group>"; };
+		ED6BC2391CFBDDB2008A6E62 /* JMTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMTableViewCell.m; sourceTree = "<group>"; };
+		ED6BC23A1CFBDDB2008A6E62 /* JMView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMView.h; sourceTree = "<group>"; };
+		ED6BC23B1CFBDDB2008A6E62 /* JMView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMView.m; sourceTree = "<group>"; };
+		ED6BC23C1CFBDDB2008A6E62 /* PopUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopUpView.h; sourceTree = "<group>"; };
+		ED6BC23D1CFBDDB2008A6E62 /* PopUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopUpView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,51 +100,43 @@
 		ED41BDA71CF574E10065C819 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
-				ED41BDDB1CF590B30065C819 /* Resources */,
-				ED41BDB81CF57B2E0065C819 /* Model */,
-				ED41BDB91CF57B2E0065C819 /* View */,
-				ED41BDBA1CF57B2E0065C819 /* ViewModel */,
+				ED41BDC91CF590640065C819 /* 1.png */,
+				ED6BC2371CFBDDB2008A6E62 /* View */,
+				ED6BC22F1CFBDD4E008A6E62 /* Model */,
+				ED6BC2321CFBDD4E008A6E62 /* ViewModel */,
 			);
 			name = Demo;
 			sourceTree = "<group>";
 		};
-		ED41BDB81CF57B2E0065C819 /* Model */ = {
+		ED6BC22F1CFBDD4E008A6E62 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				ED41BDB11CF575B50065C819 /* JMModel.h */,
-				ED41BDB21CF575B50065C819 /* JMModel.m */,
+				ED6BC2301CFBDD4E008A6E62 /* JMModel.h */,
+				ED6BC2311CFBDD4E008A6E62 /* JMModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		ED41BDB91CF57B2E0065C819 /* View */ = {
+		ED6BC2321CFBDD4E008A6E62 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				ED41BDAB1CF575680065C819 /* JMView.h */,
-				ED41BDAC1CF575680065C819 /* JMView.m */,
-				ED41BDDC1CF6E8590065C819 /* PopUpView.h */,
-				ED41BDDD1CF6E8590065C819 /* PopUpView.m */,
-				ED41BDB41CF5781F0065C819 /* JMTableViewCell.h */,
-				ED41BDB51CF5781F0065C819 /* JMTableViewCell.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		ED41BDBA1CF57B2E0065C819 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				ED41BDAE1CF575A40065C819 /* JMViewModel.h */,
-				ED41BDAF1CF575A40065C819 /* JMViewModel.m */,
+				ED6BC2331CFBDD4E008A6E62 /* JMViewModel.h */,
+				ED6BC2341CFBDD4E008A6E62 /* JMViewModel.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		ED41BDDB1CF590B30065C819 /* Resources */ = {
+		ED6BC2371CFBDDB2008A6E62 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				ED41BDC91CF590640065C819 /* 1.png */,
+				ED6BC2381CFBDDB2008A6E62 /* JMTableViewCell.h */,
+				ED6BC2391CFBDDB2008A6E62 /* JMTableViewCell.m */,
+				ED6BC23A1CFBDDB2008A6E62 /* JMView.h */,
+				ED6BC23B1CFBDDB2008A6E62 /* JMView.m */,
+				ED6BC23C1CFBDDB2008A6E62 /* PopUpView.h */,
+				ED6BC23D1CFBDDB2008A6E62 /* PopUpView.m */,
 			);
-			name = Resources;
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,14 +211,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED6BC23F1CFBDDB2008A6E62 /* JMView.m in Sources */,
+				ED6BC23E1CFBDDB2008A6E62 /* JMTableViewCell.m in Sources */,
 				ED41BD981CF574080065C819 /* ViewController.m in Sources */,
 				ED41BD951CF574080065C819 /* AppDelegate.m in Sources */,
+				ED6BC2361CFBDD4E008A6E62 /* JMViewModel.m in Sources */,
+				ED6BC2401CFBDDB2008A6E62 /* PopUpView.m in Sources */,
 				ED41BD921CF574080065C819 /* main.m in Sources */,
-				ED41BDDE1CF6E8590065C819 /* PopUpView.m in Sources */,
-				ED41BDAD1CF575680065C819 /* JMView.m in Sources */,
-				ED41BDB01CF575A40065C819 /* JMViewModel.m in Sources */,
-				ED41BDB61CF5781F0065C819 /* JMTableViewCell.m in Sources */,
-				ED41BDB31CF575B50065C819 /* JMModel.m in Sources */,
+				ED6BC2351CFBDD4E008A6E62 /* JMModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
